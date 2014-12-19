@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body { 
-font-family: "Arial Narrow", Sans-Serif;
+font-family: "Arial Narrow", Sans-serif;
 font-size: 20px;
 }
 
@@ -42,7 +42,7 @@ div
     margin-left: 20px;
     padding-bottom: 15px;
     font-size: 25px;
-    font-family: Verdana, sans-serif;
+    font-family: "Verdana", Sans-serif;
     color: #ffffff;
 }
 
@@ -51,7 +51,7 @@ div
     margin-right: 20px;
     padding-bottom: 10px;
     font-size: 20px;
-    font-family: Verdana, sans-serif;
+    font-family: "Verdana", Sans-serif;
     color: #ffffff;
 }
 
@@ -60,7 +60,7 @@ div
     margin-left:45%;
     padding-bottom: 10px;
     font-size: 20px;
-    font-family: Verdana, sans-serif;
+    font-family: "Verdana", Sans-serif;
     color: #ffffff;
 }
 
@@ -90,14 +90,32 @@ li {
 
 h2 {
     font-size: 35px; 
+	color: #000000;
+  	text-shadow:
+     0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
 }
 
 h3 {
-    width: 325px;
-    text-shadow:-4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
-    letter-spacing: 0.2em;
+    width: 325px;	
+  	letter-spacing: 0.2em;
     border-bottom: 4px solid #000;
 }
+   
 
 h4 {
     font-weight: bold;
@@ -136,7 +154,7 @@ h4 {
     margin-left: 40px;
     padding-bottom: 15px;
     font-size: 20px;
-    font-family: Verdana, sans-serif;
+    font-family: "Verdana", Sans-serif;
     color: #ffffff;
 }
 
@@ -145,6 +163,6 @@ h4 {
     margin-right: 40px;
     padding-bottom: 10px;
     font-size: 20px;
-    font-family: Verdana, sans-serif;
+    font-family: "Verdana", Sans-serif;
     color: #ffffff;
 }
