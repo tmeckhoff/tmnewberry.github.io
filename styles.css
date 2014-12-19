@@ -90,7 +90,13 @@ li {
 
 h2 {
     font-size: 35px; 
-	color: #000000;
+}
+
+h3 {
+    width: 325px;	
+    letter-spacing: 0.2em;
+    border-bottom: 4px solid #000;
+    color: #000000;
   	text-shadow:
      0 1px #808d93,
     -1px 0 #cdd2d5,
@@ -108,12 +114,6 @@ h2 {
     -7px 6px #cdd2d5,
     -7px 8px #808d93,
     -8px 7px #cdd2d5;
-}
-
-h3 {
-    width: 325px;	
-  	letter-spacing: 0.2em;
-    border-bottom: 4px solid #000;
 }
    
 
