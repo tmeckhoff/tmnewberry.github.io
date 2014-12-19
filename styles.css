@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 body { 
 font-family: "Arial Narrow", Sans-Serif;
 font-size: 20px;
@@ -69,10 +72,10 @@ div
     padding-bottom: 10px;
     height: auto;
     width: 98%;
-    background-color: #9fabb7;
+    background-color: #a9afb5;
     position: relative;
     top: 10px;
-    right: 3px;
+    right: 2px;
     left: auto;
 }
 
@@ -108,10 +111,10 @@ h4 {
     padding-bottom: 10px;
     height: auto;
     width: 98%;
-    background-color: #d6dbe0;
+    background-color: #cbcfd2;
     position: relative;
     top: 10px;
-    right: 3px;
+    right: 2px;
     left: auto;
 }
 
