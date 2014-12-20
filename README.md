@@ -1,4 +1,4 @@
 tmnewberry.github.io
 ====================
 
-Resume
+Resume for Prime Academy application.
