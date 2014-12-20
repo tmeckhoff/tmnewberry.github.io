@@ -89,7 +89,7 @@ li {
 
 
 h2 {
-    font-size: 35px; 
+    font-size: 45px; 
     text-shadow: 4px 3px 0px #a9afb5, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
@@ -98,6 +98,7 @@ h3 {
     letter-spacing: 0.2em;
     border-bottom: 4px solid #000;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    font-size: 25px; 
 }
    
 
