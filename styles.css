@@ -5,7 +5,10 @@ body {
 font-family: "Arial Narrow", Sans-serif;
 font-size: 19px;
 }
-
+  
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
 a:link {
     text-decoration: none;
@@ -64,16 +67,13 @@ header {
     border-radius: 7px;
     float: left;
     margin-top: 20px;
-    padding-left: 35px;
     padding-top: 15px;
     padding-bottom: 10px;
     height: auto;
-    width: 98%;
+    width: 100%;
     background-color: #babfc3;
     position: relative;
     top: 10px;
-    right: 2px;
-    left: auto;
 }
 
 ul {
@@ -81,27 +81,37 @@ ul {
 }
 
 li {
-    font-style: italic; 
+    font-style: italic;
+    font-size: 15px;
+    font-family: "Verdana", Sans-serif;
 }
 
+p {
+    font-size: 17px;
+    font-family: "Verdana", Sans-serif;
+}
 
 h2#ex {
     font-size: 40px; 
+    padding-left: 125px;
     text-shadow: 4px 3px 0px #babfc3, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#ed {
-    font-size: 40px; 
+    font-size: 40px;
+    padding-left: 125px;
     text-shadow: 4px 3px 0px #dcdfe1, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#present {
     font-size: 40px; 
+    padding-left: 125px;
     text-shadow: 4px 3px 0px #cbcfd2, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h3 {
-    width: 650px;   
+    width: 650px;  
+    padding-left: 100px; 
     letter-spacing: 0.2em;
     border-bottom: 4px solid #000;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
@@ -118,15 +128,12 @@ h4 {
     border-radius: 7px;
     float: left;
     margin-top: 7px;
-    padding-left: 35px;
     padding-bottom: 10px;
     height: auto;
-    width: 98%;
+    width: 100%;
     background-color: #cbcfd2;
     position: relative;
     top: 10px;
-    right: 2px;
-    left: auto;
 }
 
 #education {
@@ -134,15 +141,12 @@ h4 {
     float: left;
     margin-top: 7px;
     margin-bottom: 60px;
-    padding-left: 35px;
     padding-bottom: 10px;
     height: auto;
-    width: 98%;
+    width: 100%;
     background-color: #dcdfe1;
     position: relative;
     top: 10px;
-    right: 2px;
-    left: auto;
 }
 
 footer{
