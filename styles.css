@@ -6,8 +6,12 @@ font-family: "Arial Narrow", Sans-serif;
 font-size: 19px;
 }
   
-*, *:before, *:after {
+html {
   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 a:link {
@@ -21,6 +25,8 @@ a:visited {
 
 a:hover {
     font-weight: bold;
+    color: rgba(140,122,174,0.85);
+    transition: color 1.5s ease;
 }
 
 header {
@@ -71,47 +77,52 @@ header {
     padding-bottom: 10px;
     height: auto;
     width: 100%;
-    background-color: #babfc3;
+    background-color: #cbcfd2;
     position: relative;
     top: 10px;
+    background: linear-gradient(to right, #8c7aae, #524074);
 }
 
 ul {
     list-style-type: none;
+    margin-left: 200px; 
+    width: 1000px;
 }
 
 li {
     font-style: italic;
     font-size: 15px;
     font-family: "Verdana", Sans-serif;
+    margin: 0 0 7px 0;
 }
 
 p {
     font-size: 17px;
     font-family: "Verdana", Sans-serif;
+    margin-left: 200px; 
 }
 
 h2#ex {
     font-size: 40px; 
-    padding-left: 125px;
-    text-shadow: 4px 3px 0px #babfc3, 9px 8px 0px rgba(0,0,0,0.15);
+    margin-left: 100px;
+    text-shadow: 4px 3px 0px #8c7aae, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#ed {
     font-size: 40px;
-    padding-left: 125px;
-    text-shadow: 4px 3px 0px #dcdfe1, 9px 8px 0px rgba(0,0,0,0.15);
+    margin-left: 100px;
+    text-shadow: 4px 3px 0px #6e9181, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#present {
     font-size: 40px; 
-    padding-left: 125px;
-    text-shadow: 4px 3px 0px #cbcfd2, 9px 8px 0px rgba(0,0,0,0.15);
+    margin-left: 100px;
+    text-shadow: 4px 3px 0px #7a86ad, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h3 {
     width: 650px;  
-    padding-left: 100px; 
+    margin-left: 200px; 
     letter-spacing: 0.2em;
     border-bottom: 4px solid #000;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
@@ -122,6 +133,7 @@ h3 {
 h4 {
     font-weight: bold;
     font-size: 21px;
+    margin-left: 200px; 
 }
 
 #presentations {
@@ -134,7 +146,8 @@ h4 {
     background-color: #cbcfd2;
     position: relative;
     top: 10px;
-}
+    background: linear-gradient(to right, #7a86ad, #404C73);
+    }
 
 #education {
     border-radius: 7px;
@@ -147,6 +160,7 @@ h4 {
     background-color: #dcdfe1;
     position: relative;
     top: 10px;
+    background: linear-gradient(to right, #6e9181, #395B6B);
 }
 
 footer{
