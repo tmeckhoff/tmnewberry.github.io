@@ -84,11 +84,11 @@ header {
     position: relative;
     top: 10px;
     background: #8c7aae;
-    background: linear-gradient(right, #8c7aae, #524074);
-    background: -webkit-linear-gradient(right, #8c7aae, #524074);   
-    background: -moz-linear-gradient(right, #8c7aae, #524074);
-    background: -ms-linear-gradient(right, #8c7aae, #524074);
-    background: -o-linear-gradient(right, #8c7aae, #524074);
+    background: linear-gradient(right, #8c7aae, #756690);
+    background: -webkit-linear-gradient(right, #8c7aae, #756690);   
+    background: -moz-linear-gradient(right, #8c7aae, #756690);
+    background: -ms-linear-gradient(right, #8c7aae, #756690);
+    background: -o-linear-gradient(right, #8c7aae, #756690);
 }
 
 ul {
@@ -113,7 +113,7 @@ p {
 h2#ex {
     font-size: 40px; 
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #524074, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #756690, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#ed {
