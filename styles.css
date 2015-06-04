@@ -57,7 +57,7 @@ header {
 #email {
     position: relative;
     bottom: 140px;
-    left: 450px;
+    left: 550px;
     margin-right: 20px;
     padding-bottom: 10px;
     font-size: 20px;
@@ -69,8 +69,8 @@ header {
 {
     position: relative;
     bottom: 204px;
-    left: 400px;
-    margin-left:45%;
+    left: 450px;
+    margin-left: 45%;
     padding-bottom: 10px;
     font-size: 20px;
     font-family: "Verdana", Sans-serif;
@@ -87,12 +87,12 @@ header {
     min-width: 100%;
     position: relative;
     top: 10px;
-    background: #8c7aae;
-    background: linear-gradient(right, #8c7aae, #756690);
-    background: -webkit-linear-gradient(right, #8c7aae, #756690);   
-    background: -moz-linear-gradient(right, #8c7aae, #756690);
-    background: -ms-linear-gradient(right, #8c7aae, #756690);
-    background: -o-linear-gradient(right, #8c7aae, #756690);
+    background: #ACA0C4;
+    background: linear-gradient(right, #ACA0C4, #83759B);
+    background: -webkit-linear-gradient(right, #ACA0C4, #83759B);   
+    background: -moz-linear-gradient(right, #ACA0C4, #83759B);
+    background: -ms-linear-gradient(right, #ACA0C4, #83759B);
+    background: -o-linear-gradient(right, #ACA0C4, #83759B);
 }
 
 ul {
@@ -117,19 +117,19 @@ p {
 h2#ex {
     font-size: 40px; 
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #756690, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #83759B, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#ed {
     font-size: 40px;
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #395B6B, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #617C89, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#present {
     font-size: 40px; 
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #535E81, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #747C99, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h3 {
@@ -157,12 +157,12 @@ h4 {
     min-width: 100%;
     position: relative;
     top: 10px;
-    background: #7a86ad;
-    background: linear-gradient(right, #7a86ad, #535E81);
-    background: -webkit-linear-gradient(right, #7a86ad, #535E81);   
-    background: -moz-linear-gradient(right, #7a86ad, #535E81);
-    background: -ms-linear-gradient(right, #7a86ad, #535E81);
-    background: -o-linear-gradient(right, #7a86ad, #535E81);
+    background: #A0A8C4;
+    background: linear-gradient(right, #A0A8C4, #747C99);
+    background: -webkit-linear-gradient(right, #A0A8C4, #747C99);   
+    background: -moz-linear-gradient(right, #A0A8C4, #747C99);
+    background: -ms-linear-gradient(right, #A0A8C4, #747C99);
+    background: -o-linear-gradient(right, #A0A8C4, #747C99);
     }
 
 #education {
@@ -175,12 +175,12 @@ h4 {
     min-width: 100%;
     position: relative;
     top: 10px;
-    background: #6e9181;
-    background: linear-gradient(right, #6e9181, #395B6B);
-    background: -webkit-linear-gradient(right, #6e9181, #395B6B);   
-    background: -moz-linear-gradient(right, #6e9181, #395B6B);
-    background: -ms-linear-gradient(right, #6e9181, #395B6B);
-    background: -o-linear-gradient(right, #6e9181, #395B6B);
+    background: #97B0A4;
+    background: linear-gradient(right, #97B0A4, #617C89);
+    background: -webkit-linear-gradient(right, #97B0A4, #617C89);   
+    background: -moz-linear-gradient(right, #97B0A4, #617C89);
+    background: -ms-linear-gradient(right, #97B0A4, #617C89);
+    background: -o-linear-gradient(right, #97B0A4, #617C89);
 }
 
 footer{
