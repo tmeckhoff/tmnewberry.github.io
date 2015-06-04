@@ -25,8 +25,11 @@ a:visited {
 
 a:hover {
     font-weight: bold;
-    color: rgba(140,122,174,0.85);
-    transition: color 1.5s ease;
+    color: rgba(140,122,174,0.90);
+    -webkit-transition: color 1.5s ease;               
+    -moz-transition: color 1.5s ease;                  
+    -o-transition: color 1.5s ease;                
+    -transition: color 1.5s ease;
 }
 
 header {
@@ -80,7 +83,12 @@ header {
     background-color: #cbcfd2;
     position: relative;
     top: 10px;
-    background: linear-gradient(to right, #8c7aae, #524074);
+    background: #8c7aae;
+    background: linear-gradient(right, #8c7aae, #524074);
+    background: -webkit-linear-gradient(right, #8c7aae, #524074);   
+    background: -moz-linear-gradient(right, #8c7aae, #524074);
+    background: -ms-linear-gradient(right, #8c7aae, #524074);
+    background: -o-linear-gradient(right, #8c7aae, #524074);
 }
 
 ul {
@@ -105,19 +113,19 @@ p {
 h2#ex {
     font-size: 40px; 
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #8c7aae, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #524074, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#ed {
     font-size: 40px;
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #6e9181, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #395B6B, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h2#present {
     font-size: 40px; 
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #7a86ad, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #404C73, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h3 {
@@ -146,7 +154,12 @@ h4 {
     background-color: #cbcfd2;
     position: relative;
     top: 10px;
-    background: linear-gradient(to right, #7a86ad, #404C73);
+    background: #7a86ad;
+    background: linear-gradient(right, #7a86ad, #404C73);
+    background: -webkit-linear-gradient(right, #7a86ad, #404C73);   
+    background: -moz-linear-gradient(right, #7a86ad, #404C73);
+    background: -ms-linear-gradient(right, #7a86ad, #404C73);
+    background: -o-linear-gradient(right, #7a86ad, #404C73);
     }
 
 #education {
@@ -160,7 +173,12 @@ h4 {
     background-color: #dcdfe1;
     position: relative;
     top: 10px;
-    background: linear-gradient(to right, #6e9181, #395B6B);
+    background: #6e9181;
+    background: linear-gradient(right, #6e9181, #395B6B);
+    background: -webkit-linear-gradient(right, #6e9181, #395B6B);   
+    background: -moz-linear-gradient(right, #6e9181, #395B6B);
+    background: -ms-linear-gradient(right, #6e9181, #395B6B);
+    background: -o-linear-gradient(right, #6e9181, #395B6B);
 }
 
 footer{
