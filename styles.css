@@ -3,7 +3,6 @@
 
 body { 
 font-family: "Arial Narrow", Sans-serif;
-font-size: 19px;
 }
   
 html {
@@ -39,14 +38,15 @@ header {
     left: 0px;
     z-index: 999998;
     height: 60px;
-    min-width: 100%;
+    width: 100%;
     background-color: #535f6b;
     margin-bottom: 30px;
 }
 
 
 #name {
-    float: left;
+    position: relative;
+    bottom: 38px;
     margin-left: 20px;
     padding-bottom: 15px;
     font-size: 25px;
@@ -54,8 +54,10 @@ header {
     color: #ffffff;
 }
 
-#email{
-    float: right;
+#email {
+    position: relative;
+    bottom: 140px;
+    left: 450px;
     margin-right: 20px;
     padding-bottom: 10px;
     font-size: 20px;
@@ -65,6 +67,9 @@ header {
 
 #contact
 {
+    position: relative;
+    bottom: 204px;
+    left: 400px;
     margin-left:45%;
     padding-bottom: 10px;
     font-size: 20px;
@@ -80,7 +85,6 @@ header {
     padding-bottom: 10px;
     height: auto;
     min-width: 100%;
-    background-color: #cbcfd2;
     position: relative;
     top: 10px;
     background: #8c7aae;
@@ -125,7 +129,7 @@ h2#ed {
 h2#present {
     font-size: 40px; 
     margin-left: 100px;
-    text-shadow: 4px 3px 0px #404C73, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #535E81, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 h3 {
@@ -151,15 +155,14 @@ h4 {
     padding-bottom: 10px;
     height: auto;
     min-width: 100%;
-    background-color: #cbcfd2;
     position: relative;
     top: 10px;
     background: #7a86ad;
-    background: linear-gradient(right, #7a86ad, #404C73);
-    background: -webkit-linear-gradient(right, #7a86ad, #404C73);   
-    background: -moz-linear-gradient(right, #7a86ad, #404C73);
-    background: -ms-linear-gradient(right, #7a86ad, #404C73);
-    background: -o-linear-gradient(right, #7a86ad, #404C73);
+    background: linear-gradient(right, #7a86ad, #535E81);
+    background: -webkit-linear-gradient(right, #7a86ad, #535E81);   
+    background: -moz-linear-gradient(right, #7a86ad, #535E81);
+    background: -ms-linear-gradient(right, #7a86ad, #535E81);
+    background: -o-linear-gradient(right, #7a86ad, #535E81);
     }
 
 #education {
@@ -170,7 +173,6 @@ h4 {
     padding-bottom: 10px;
     height: auto;
     min-width: 100%;
-    background-color: #dcdfe1;
     position: relative;
     top: 10px;
     background: #6e9181;
@@ -189,7 +191,7 @@ footer{
     z-index: 999999;
     height: 60px;
     font-size: 25px;
-    min-width: 100%;
+    width: 100%;
     background-color: #535f6b;
     margin-top: 30px;
 
